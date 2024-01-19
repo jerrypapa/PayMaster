@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BrokerConfigurations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EquityMicroservice.Application\EquityMicroservice.Application.csproj" />
+    <ProjectReference Include="..\EquityMicroservice.Domain\EquityMicroservice.Domain.csproj" />
+    <ProjectReference Include="..\EquityMicroservice.Infrastructure\EquityMicroservice.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
