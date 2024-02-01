@@ -19,15 +19,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mpesa", "Mpesa", "{1A0D8804
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alerts", "Alerts", "{F79476C8-B888-46A6-96D1-BC86D6597B00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquityMicroservice.API", "EquityMicroservice.API\EquityMicroservice.API.csproj", "{234324AE-8B81-436D-9BF1-6BFB398572E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquityMicroservice.API", "EquityMicroservice.API\EquityMicroservice.API.csproj", "{234324AE-8B81-436D-9BF1-6BFB398572E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquityMicroservice.Application", "EquityMicroservice.Application\EquityMicroservice.Application.csproj", "{AE01D060-54A5-4BFD-ABC7-01B9E5DB8894}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquityMicroservice.Application", "EquityMicroservice.Application\EquityMicroservice.Application.csproj", "{AE01D060-54A5-4BFD-ABC7-01B9E5DB8894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquityMicroservice.Domain", "EquityMicroservice.Domain\EquityMicroservice.Domain.csproj", "{EBB261B3-B265-4CCD-94B4-7CA341380D32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquityMicroservice.Domain", "EquityMicroservice.Domain\EquityMicroservice.Domain.csproj", "{EBB261B3-B265-4CCD-94B4-7CA341380D32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquityMicroservice.Infrastructure", "EquityMicroservice.Infrastructure\EquityMicroservice.Infrastructure.csproj", "{F7880645-26BF-4DCC-B706-B6C63C033886}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquityMicroservice.Infrastructure", "EquityMicroservice.Infrastructure\EquityMicroservice.Infrastructure.csproj", "{F7880645-26BF-4DCC-B706-B6C63C033886}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D2C596EC-39D8-44D7-86F4-D78D89A46607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Api", "Alerts.Microservice.Api\Alerts.Microservice.Api.csproj", "{C07740EA-6D2F-4460-8F23-07F2D92BEFB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Application", "Alerts.Microservice.Application\Alerts.Microservice.Application.csproj", "{B654C728-8290-4C10-B965-1E52004EBF9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Domain", "Alerts.Microservice.Domain\Alerts.Microservice.Domain.csproj", "{2C77504F-DACC-4280-8913-6CED398542CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Infrastructure", "Alerts.Microservice.Infrastructure\Alerts.Microservice.Infrastructure.csproj", "{2244BF1D-7F49-488D-8BBB-48FC151C5058}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{F7880645-26BF-4DCC-B706-B6C63C033886}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7880645-26BF-4DCC-B706-B6C63C033886}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7880645-26BF-4DCC-B706-B6C63C033886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07740EA-6D2F-4460-8F23-07F2D92BEFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07740EA-6D2F-4460-8F23-07F2D92BEFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07740EA-6D2F-4460-8F23-07F2D92BEFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07740EA-6D2F-4460-8F23-07F2D92BEFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B654C728-8290-4C10-B965-1E52004EBF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B654C728-8290-4C10-B965-1E52004EBF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B654C728-8290-4C10-B965-1E52004EBF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B654C728-8290-4C10-B965-1E52004EBF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C77504F-DACC-4280-8913-6CED398542CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C77504F-DACC-4280-8913-6CED398542CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C77504F-DACC-4280-8913-6CED398542CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C77504F-DACC-4280-8913-6CED398542CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2244BF1D-7F49-488D-8BBB-48FC151C5058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2244BF1D-7F49-488D-8BBB-48FC151C5058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2244BF1D-7F49-488D-8BBB-48FC151C5058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2244BF1D-7F49-488D-8BBB-48FC151C5058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +89,10 @@ Global
 		{EBB261B3-B265-4CCD-94B4-7CA341380D32} = {7B850559-8763-4C7B-96E5-349312F49E83}
 		{F7880645-26BF-4DCC-B706-B6C63C033886} = {7B850559-8763-4C7B-96E5-349312F49E83}
 		{D2C596EC-39D8-44D7-86F4-D78D89A46607} = {7B850559-8763-4C7B-96E5-349312F49E83}
+		{C07740EA-6D2F-4460-8F23-07F2D92BEFB9} = {F79476C8-B888-46A6-96D1-BC86D6597B00}
+		{B654C728-8290-4C10-B965-1E52004EBF9D} = {F79476C8-B888-46A6-96D1-BC86D6597B00}
+		{2C77504F-DACC-4280-8913-6CED398542CA} = {F79476C8-B888-46A6-96D1-BC86D6597B00}
+		{2244BF1D-7F49-488D-8BBB-48FC151C5058} = {F79476C8-B888-46A6-96D1-BC86D6597B00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {097AA47C-31F3-4009-BA68-52564CB35103}
