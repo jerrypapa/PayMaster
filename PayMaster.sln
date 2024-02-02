@@ -29,13 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquityMicroservice.Infrastr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D2C596EC-39D8-44D7-86F4-D78D89A46607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Api", "Alerts.Microservice.Api\Alerts.Microservice.Api.csproj", "{C07740EA-6D2F-4460-8F23-07F2D92BEFB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alerts.Microservice.Api", "Alerts.Microservice.Api\Alerts.Microservice.Api.csproj", "{C07740EA-6D2F-4460-8F23-07F2D92BEFB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Application", "Alerts.Microservice.Application\Alerts.Microservice.Application.csproj", "{B654C728-8290-4C10-B965-1E52004EBF9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alerts.Microservice.Application", "Alerts.Microservice.Application\Alerts.Microservice.Application.csproj", "{B654C728-8290-4C10-B965-1E52004EBF9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Domain", "Alerts.Microservice.Domain\Alerts.Microservice.Domain.csproj", "{2C77504F-DACC-4280-8913-6CED398542CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alerts.Microservice.Domain", "Alerts.Microservice.Domain\Alerts.Microservice.Domain.csproj", "{2C77504F-DACC-4280-8913-6CED398542CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alerts.Microservice.Infrastructure", "Alerts.Microservice.Infrastructure\Alerts.Microservice.Infrastructure.csproj", "{2244BF1D-7F49-488D-8BBB-48FC151C5058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alerts.Microservice.Infrastructure", "Alerts.Microservice.Infrastructure\Alerts.Microservice.Infrastructure.csproj", "{2244BF1D-7F49-488D-8BBB-48FC151C5058}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{28948C44-A026-460B-8E9C-9E30CDFE1DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paymaster.Contracts", "Paymaster.Contracts\Paymaster.Contracts.csproj", "{71ADA9D8-504F-4940-A2B2-752D16FF5CE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,10 @@ Global
 		{2244BF1D-7F49-488D-8BBB-48FC151C5058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2244BF1D-7F49-488D-8BBB-48FC151C5058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2244BF1D-7F49-488D-8BBB-48FC151C5058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71ADA9D8-504F-4940-A2B2-752D16FF5CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71ADA9D8-504F-4940-A2B2-752D16FF5CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71ADA9D8-504F-4940-A2B2-752D16FF5CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71ADA9D8-504F-4940-A2B2-752D16FF5CE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +101,8 @@ Global
 		{B654C728-8290-4C10-B965-1E52004EBF9D} = {F79476C8-B888-46A6-96D1-BC86D6597B00}
 		{2C77504F-DACC-4280-8913-6CED398542CA} = {F79476C8-B888-46A6-96D1-BC86D6597B00}
 		{2244BF1D-7F49-488D-8BBB-48FC151C5058} = {F79476C8-B888-46A6-96D1-BC86D6597B00}
+		{28948C44-A026-460B-8E9C-9E30CDFE1DA2} = {B1B5E944-4FAF-4E1A-9806-E94F841F0636}
+		{71ADA9D8-504F-4940-A2B2-752D16FF5CE5} = {28948C44-A026-460B-8E9C-9E30CDFE1DA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {097AA47C-31F3-4009-BA68-52564CB35103}

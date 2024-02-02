@@ -10,5 +10,6 @@ namespace EquityMicroservice.Application.Services
     public interface ICustomerService
     {
         Task<Guid> CreateCustomerAsync(CreateCustomerCommand customerCommand);
+        Task<string> GenerateAccountNo(string? Cif);
     }
 }

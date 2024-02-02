@@ -12,12 +12,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="EasyNetQ" Version="7.8.0" />
     <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\EquityMicroservice.Domain\EquityMicroservice.Domain.csproj" />
+    <ProjectReference Include="..\Paymaster.Contracts\Paymaster.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
